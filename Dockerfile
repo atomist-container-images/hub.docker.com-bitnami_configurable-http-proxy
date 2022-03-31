@@ -1,12 +1,15 @@
-# Tags: latest, 4.5.1-debian-10-r36, 4.5.1, 4-debian-10, 4
+# Tags: latest, 4.5.1-debian-10-r37, 4.5.1, 4-debian-10, 4
 FROM bitnami/configurable-http-proxy:latest
-FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r36
+FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r37
 FROM bitnami/configurable-http-proxy:4.5.1
 FROM bitnami/configurable-http-proxy:4-debian-10
 FROM bitnami/configurable-http-proxy:4
 
 # Tags: _
 FROM bitnami/configurable-http-proxy:_
+
+# Tags: 4.5.1-debian-10-r36
+FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r36
 
 # Tags: 4.5.1-debian-10-r35
 FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r35
@@ -91,6 +94,3 @@ FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r9
 
 # Tags: 4.5.1-debian-10-r8
 FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r8
-
-# Tags: 4.5.1-debian-10-r7
-FROM bitnami/configurable-http-proxy:4.5.1-debian-10-r7
